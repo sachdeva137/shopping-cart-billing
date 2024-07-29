@@ -21,8 +21,10 @@ Applies tax to the subtotal after all discounts.
 
 Clone the repository:
 git clone <repository-url>
+
 Navigate to the project directory:
 cd shopping-cart-billing
+
 Install the dependencies:
 npm install
 
