@@ -1,7 +1,5 @@
-// run.js
 const calculateShoppingCart = require('./index');
 
-// Combined item and promotion structure
 const billDetails1 = [
     {
         item: "Milk",
@@ -23,8 +21,6 @@ const billDetails1 = [
 const totalBillPromotions1 = [];
 const taxRate1 = 5;
 console.log(calculateShoppingCart(billDetails1, totalBillPromotions1, taxRate1));
-
-// Additional test cases using the new structure...
 
 const billDetails2 = [
     {

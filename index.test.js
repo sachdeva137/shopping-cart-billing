@@ -1,4 +1,3 @@
-// calculateShoppingCart.test.js
 const calculateShoppingCart = require('./index');
 
 describe('calculateShoppingCart', () => {
@@ -59,8 +58,8 @@ describe('calculateShoppingCart', () => {
         const result = calculateShoppingCart(billDetails, totalBillPromotions, taxRate);
 
         expect(result.subtotal).toBe("6.20");
-        expect(result.totalDiscount).toBe("2.62"); // 1.00 (20% off on Cheese) + 1.62 (10% off total bill and $1 off)
-        expect(result.tax).toBe("0.18"); // Rounded tax
+        expect(result.totalDiscount).toBe("2.62"); 
+        expect(result.tax).toBe("0.18"); 
         expect(result.total).toBe("3.76");
     });
 
